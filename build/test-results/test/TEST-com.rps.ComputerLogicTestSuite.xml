@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rps.ComputerLogicTestSuite" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-02-27T21:24:32" hostname="LAPTOP-IHMTTFL3" time="0.006">
+  <properties/>
+  <testcase name="testReduceThePlayersChancesWhenRandomNumberIsBiggerThan50" classname="com.rps.ComputerLogicTestSuite" time="0.004"/>
+  <testcase name="testCheckWhichMoveIsWinningAndWhichIsNotNotWinningMove" classname="com.rps.ComputerLogicTestSuite" time="0.0"/>
+  <testcase name="testCheckWhichMoveIsWinningAndWhichIsNotWinningMove" classname="com.rps.ComputerLogicTestSuite" time="0.0"/>
+  <testcase name="testReduceThePlayersChancesWhenRandomNumberIsBiggerThan25AndLowerThen51" classname="com.rps.ComputerLogicTestSuite" time="0.001"/>
+  <testcase name="testReduceThePlayersChancesWhenRandomNumberIsLowerThen26" classname="com.rps.ComputerLogicTestSuite" time="0.0"/>
+  <system-out><![CDATA[This is the beginning of tests.
+
+Preparing to execute test #1
+Checking if computer wins when random number is bigger than 50
+
+Preparing to execute test #2
+notWinningMove - correct
+
+Preparing to execute test #3
+winningMove - correct
+
+Preparing to execute test #4
+Checking if computer loses when random number is bigger than 25 and lower than 51
+
+Preparing to execute test #5
+Checking if computer will draw with player when random number is lower than 26
+
+All tests are finished.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

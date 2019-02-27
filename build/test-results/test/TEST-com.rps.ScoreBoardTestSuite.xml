@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rps.ScoreBoardTestSuite" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-02-27T21:24:32" hostname="LAPTOP-IHMTTFL3" time="0.003">
+  <properties/>
+  <testcase name="testAddRoundToBoardWhenIsDraw" classname="com.rps.ScoreBoardTestSuite" time="0.002"/>
+  <testcase name="testAddRoundToBoardWhenComputerWins" classname="com.rps.ScoreBoardTestSuite" time="0.001"/>
+  <testcase name="testAddRoundToBoardWhenPlayerWins" classname="com.rps.ScoreBoardTestSuite" time="0.0"/>
+  <system-out><![CDATA[This is the beginning of tests.
+
+Preparing to execute test #1
+Testing method - addRoundToBoard(new Paper(), new Paper(), 1)
+player - paper : computer - paper
+
+
+Preparing to execute test #2
+Testing method - addRoundToBoard(new Rock(), new Paper(), 1)
+player - rock : computer - paper
+
+
+Preparing to execute test #3
+Testing method - addRoundToBoard(new Paper(), new Rock(), 1)
+player - paper : computer - rock
+
+
+All tests are finished.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
